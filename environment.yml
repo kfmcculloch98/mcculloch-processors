@@ -32,4 +32,5 @@ dependencies:
   - pooch
   - tqdm
   - pytest
-  - pip
+ - pip:
+ - wqchartpy
