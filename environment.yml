@@ -1,36 +1,38 @@
 name: geo_env
 channels:
-  - conda-forge
   - defaults
 dependencies:
-  - python=3.11
-  - ipython
-  - jupyter
-  - notebook
-  - jupyterlab
-  - ipykernel
-  - numpy
-  - scipy
-  - pandas
-  - xarray
-  - matplotlib
+  - fiona
+  - flopy
   - gdal
   - geopandas
-  - fiona
-  - rasterio
-  - rasterstats
-  - shapely
-  - rtree
+  - ipykernel
+  - ipython
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - netcdf4
+  - notebook
+  - numpy
+  - openpyxl
+  - pandas
+  - pip
+  - pooch
   - pyproj
   - pyshp
-  - flopy
-  - netcdf4
-  - openpyxl
-  - xlrd
-  - pyyaml
-  - requests
-  - pooch
-  - tqdm
   - pytest
- - pip:
- - wqchartpy
+  - python=3.11
+  - pyyaml
+  - rasterio
+  - rasterstats
+  - requests
+  - rtree
+  - scipy
+  - shapely
+  - tqdm
+  - xarray
+  - xlrd
+  - cartopy
+  - dash
+  - pyemu
+prefix: /home/u30/kfmcculloch/anaconda3/envs/geo_env
