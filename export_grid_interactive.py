@@ -41,7 +41,7 @@ def export_grid_interactive():
         full_export_path = os.path.join(out_path, output_filename)
         
         print(f"Exporting to: {full_export_path}...")
-        gwf.modelgrid.export(full_export_path)
+        gwf.export(full_export_path)
         
         print("\nSuccess! Grid conversion complete.")
 
