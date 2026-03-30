@@ -1,0 +1,4 @@
+ec_w_sch.py is a utility to search Environment Canada weather stations. The code returns each station climate identifier, location, data frequency, and period of record.
+
+ec_w_dld.py is a utility to batch download and combine Environment Canada weather data. The code requires the station to be input using its climate identifier.
+
