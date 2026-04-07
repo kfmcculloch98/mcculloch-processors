@@ -13,9 +13,9 @@ dependencies:
   - matplotlib
   - netcdf4
   - notebook
-  - numpy
+  - numpy<2.0
   - openpyxl
-  - pandas
+  - pandas<3.0
   - pip:
    - wqchartpy
   - pooch

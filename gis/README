@@ -1,0 +1,1 @@
+gis_tif_checker.py is a utility to check which TIF files enclose a set of point coordinates saved to a csv.
