@@ -21,7 +21,9 @@ rasterio
 rasterstats
 requests
 rtree
+scikit-learn
 scipy
+seaborn
 shapely
 tqdm
 xarray
