@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<AGIModelFile>
+  <GridInfo>
+    <X>0</X>
+    <Y>0</Y>
+    <Angle>0</Angle>
+    <Geodatabase>PARENT.gdb</Geodatabase>
+    <FeatureClass2D>Cell2D</FeatureClass2D>
+    <FeatureClass3D>Cell3D</FeatureClass3D>
+    <FeatureClassNodes>Node</FeatureClassNodes>
+    <ColumnField>Column</ColumnField>
+    <RowField>Row</RowField>
+    <UniqueIDField>Numpol</UniqueIDField>
+    <LayerField>Layer</LayerField>
+    <Unique3DIDField>Numpol2</Unique3DIDField>
+    <UseArcHydroGW>True</UseArcHydroGW>
+    <UseFileGDB>true</UseFileGDB>
+    <InterpolationType>1</InterpolationType>
+  </GridInfo>
+  <AGIOptions />
+</AGIModelFile>

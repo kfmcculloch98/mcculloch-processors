@@ -1,0 +1,10 @@
+# LPF file for child grid. Homogeneous
+  92  0.00E+00  0                     ;ITEM 1 ILPFCB, HDRY, NPLPF
+   0                                  ;ITEM 2 LAYTYP
+   0                                  ;ITEM 3 LAYAVG
+  1.                                  ;ITEM 4 CHANI
+   1                                  ;ITEM 5 LAYVKA
+   0                                  ;ITEM 6 LAYWET
+CONSTANT 2.7500E-2                    ;HK, layer 1
+CONSTANT 1.0E+0                       ;ITEM 12 VKA, layer 1
+CONSTANT 2.0000E-4                    ;ITEM 12 Ss,  layer 1

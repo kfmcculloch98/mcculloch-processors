@@ -1,0 +1,15 @@
+LGR
+2                                                NGRIDS 
+PARENT.nam                                       Parent.nam
+PARENTONLY                                       GRIDSTATUS
+70     71                                        IUPBHSV  IUPBFSV
+CHILD.nam                                        Child.nam 
+CHILDONLY                                        GRIDSTATUS 
+0  -59   80    81                                ISHFLG   IBFLG    IUCBHSV    IUCBFSV
+20     1                                         NXLGRITER    IOUTLGR
+0.500    0.500                                   RELAXH    RELAXF 
+1.00E-4    6.0E-4                                HCLOSELGR    FCLOSELGR
+1     14     14                                  NPLBEG   NPRBEG   NPCBEG      
+1     32     32                                  NPLEND   NPREND   NPCEND
+3                                                NCPP
+1                                                NCPPL (NPLBEG to NPLEND)

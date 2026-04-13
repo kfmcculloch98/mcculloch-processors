@@ -1,0 +1,14 @@
+# WEL6 input file, prepared by MF5to6 on 4/13/2026 at 10:12:18.
+
+BEGIN Options
+  PRINT_INPUT
+  PRINT_FLOWS
+END Options
+
+BEGIN Dimensions
+  MAXBOUND  1
+END Dimensions
+
+BEGIN PERIOD 1
+  1  55  73  -0.55000000E-02
+END PERIOD

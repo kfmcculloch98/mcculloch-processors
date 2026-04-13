@@ -1,0 +1,9 @@
+list 26 child.lst
+BAS6        25 CHILD.ba6
+LPF        27 CHILD.lpf
+WEL 22 CHILD.WEL
+PCG 23 child.pcg
+OC  24 CHILD.OC
+DATA(BINARY) 86 headc
+DATA(BINARY) 87 flowc
+DIS         20 CHILD.dis

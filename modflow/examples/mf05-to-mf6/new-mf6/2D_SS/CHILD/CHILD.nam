@@ -1,0 +1,11 @@
+LIST           7  {root}.LST
+BAS6         10  CHILD.ba6
+LPF          11  CHILD.lpf
+WEL          12  CHILD.wel
+PCG          13  CHILD.pcg
+OC           14  CHILD.oc
+DIS          15  CHILD.dis
+DATA(BINARY) 86  headc REPLACE
+DATA(BINARY) 87  flowc REPLACE
+DATA(BINARY) 150 CHILD.HDS REPLACE
+DATA(BINARY) 151 CHILD.DDN REPLACE

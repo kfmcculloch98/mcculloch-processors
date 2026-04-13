@@ -1,0 +1,10 @@
+# LPF file for parent grid.  Garcia heterogeneity 
+  77  0.00E+00  0               ;ITEM 1 ILPFCB, HDRY, NPLPF
+   0                            ;ITEM 2 LAYTYP
+   0                            ;ITEM 3 LAYAVG
+  1.                            ;ITEM 4 CHANI
+   0                            ;ITEM 5 LAYVKA
+   0                            ;ITEM 6 LAYWET
+OPEN/CLOSE parent_hk.dat 1.E-4  (50F5.2) -1    ;ITEM 10 HK, layer 1
+CONSTANT 1.0                    ;ITEM 12 VKA
+

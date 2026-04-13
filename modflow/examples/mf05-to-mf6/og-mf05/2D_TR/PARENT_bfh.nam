@@ -1,0 +1,15 @@
+list 16 parent_bfh.lst
+BAS6        15 PARENT.ba6
+LPF         17 PARENT0.lpf
+#LPF         17 PARENT.lpf
+WEL 12 PARENT.wel
+#DE4 13 PARENT.DE4 
+PCG 13 PARENT.pcg 
+#LMG 13 PARENT.lmg 
+OC  14 PARENT.OC  
+DATA(BINARY) 76 hedp 
+DATA(BINARY) 77 flowp 
+DATA 70 pbhead_chk
+#DATA 71 pbflux
+BFH 71 pbflux
+DIS         10 PARENT.dis

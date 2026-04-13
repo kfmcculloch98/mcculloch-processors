@@ -1,0 +1,13 @@
+BEGIN Options
+  LIST       CHILD_mf6.lst
+END Options
+
+BEGIN Packages
+  DIS6       CHILD_mf6.dis
+  IC6        CHILD_mf6.ic
+  NPF6       CHILD_mf6.npf
+  OC6        CHILD_mf6.oc
+  WEL6       CHILD_mf6.wel
+  CHD6       CHILD_mf6.ib.ibound.chd  'CHD-FROM-IBOUND' 
+END Packages
+
