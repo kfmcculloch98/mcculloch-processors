@@ -1,4 +1,4 @@
-# WEL6 input file, prepared by MF5to6 on 4/14/2026 at 13:45:31.
+# WEL6 input file, prepared by MF5to6 on 4/14/2026 at 14:15:37.
 
 BEGIN Options
   PRINT_INPUT
@@ -10,5 +10,5 @@ BEGIN Dimensions
 END Dimensions
 
 BEGIN PERIOD 1
-  1  55  73  -0.55000000E-02
+  1  26  30  -0.55000000E-02
 END PERIOD

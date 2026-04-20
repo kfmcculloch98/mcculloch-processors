@@ -1,4 +1,4 @@
-# DIS6 input file, prepared by MF5to6 on 4/14/2026 at 13:45:31.
+# DIS6 input file, prepared by MF5to6 on 4/14/2026 at 14:15:37.
 
 BEGIN Options
   LENGTH_UNITS  UNDEFINED
@@ -6,15 +6,15 @@ END Options
 
 BEGIN Dimensions
   NLAY  1
-  NROW  100
-  NCOL  154
+  NROW  50
+  NCOL  108
 END Dimensions
 
 BEGIN GRIDDATA
   DELR
-    CONSTANT    1.02777800        DELR
+    CONSTANT    9.25000000        DELR
   DELC
-    CONSTANT    1.00000000        DELC
+    CONSTANT    9.00000000        DELC
   TOP LAYERED
     CONSTANT    1.000000    
   BOTM LAYERED

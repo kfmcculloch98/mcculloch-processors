@@ -1,0 +1,15 @@
+LGR                  ;Indicates this is an LGR input file
+2                    ;NGRIDS: # of grids
+PARENT.nam           ;Name file of the parent model
+PARENTONLY           ;GRIDSTATUS: (Parent must be listed first)
+00 770                ;IUPBHSV, IUPBFSV:  Unit #'s for saving BFH info
+CHILD.nam            ;Name file of the child model
+CHILDONLY            ;GRIDSTATUS
+1 -59 00 00          ;ISHFLG, IBFLG, IUCBHSV, IUCBFSV: starting heads, IBOUND flag, unit #'s for BFH info
+15  -1               ;MXLGRITER, IOUTLGR: max. # of LGR iterations, print flag 
+0.50000 0.50000      ;RELAXH, RELAXF: relaxation for heads and fluxes
+1.0E-5  1.0E-5       ;HCLOSELGR, FCLOSELGR: closure criteria for head and fluxes
+1 20 22              ;NPLBEG,NPRBEG,NPCBEG: beginning layer, row and column
+1 31 39              ;NPLEND,NPREND,NPCEND: ending layer, row and column
+9                    ;NCPP: # of child cells per width of parent 
+1                    ;NCPPL (NPLBEG to NPLEND): # of child cells per parent layer

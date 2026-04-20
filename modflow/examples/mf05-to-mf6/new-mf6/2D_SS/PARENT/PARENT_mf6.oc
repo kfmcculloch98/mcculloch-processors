@@ -1,13 +1,12 @@
-# OC6 input file, prepared by MF5to6 on 4/14/2026 at 13:45:31.
+# OC6 input file, prepared by MF5to6 on 4/14/2026 at 14:15:37.
 
 BEGIN Options
-  BUDGET FILEOUT  CHILD_mf6_flowc
-  HEAD FILEOUT  CHILD_mf6_headc
+  HEAD FILEOUT  PARENT_mf6_headc
   HEAD PRINT_FORMAT  COLUMNS 10  WIDTH 11  DIGITS 4  GENERAL             
 END Options
 
 BEGIN PERIOD 1
-  SAVE BUDGET ALL
   PRINT BUDGET ALL
   SAVE HEAD ALL
+  PRINT HEAD ALL
 END PERIOD
