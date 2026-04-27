@@ -47,10 +47,11 @@ def mf6_grid_georef():
         
         # apply the shift
         gwf.modelgrid.set_coord_info(xoff=xoff, yoff=yoff, angrot=0.0)
+        gwf.write_grid_specs()
         
         # calculate scale ratio
         ratio = gwf.modelgrid.delr[0] / grd_res
-        
+
         print(f"\nModel successfuly georeferenced!")
         print(f"  - New origin: {gwf.modelgrid.xoffset}, {gwf.modelgrid.yoffset}")
         print(f"  - Model resolution: {gwf.modelgrid.delr[0]}m")
