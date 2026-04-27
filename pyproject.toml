@@ -1,7 +1,7 @@
 [project]
 name = "mcculloch-processors"
 version = "0.1.0"
-description = "Add your description here"
+description = "Various processing tools to support groundwater modelling and data analysis"
 readme = "README.md"
 requires-python = ">=3.12, <3.14"
 dependencies = [
