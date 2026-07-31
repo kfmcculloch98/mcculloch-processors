@@ -1,0 +1,44 @@
+Sub ExportLines4Rhino()
+    Dim ws As Worksheet
+    Dim lastRow As Long, i As Long
+    Dim fileNum As Integer
+    Dim folderPath As String, filePath As String
+    Dim rhinoCommand As String
+    
+    ' -------------------------
+    ' 07-15-2026
+    ' Contact Kaden for support
+    ' -------------------------
+    
+    ' Set target worksheet
+    Set ws = ThisWorkbook.Sheets("Planned HDHs")
+    
+    ' Find last used row based on Column S
+    lastRow = ws.Cells(ws.Rows.Count, "S").End(xlUp).Row
+    
+    ' Set specific save directory and file name
+    folderPath = "h:\project\5251\Rhino\Command Files\"
+    filePath = folderPath & "mac_planned_hdh_traces.txt"
+    
+    fileNum = FreeFile
+    
+    ' Open file for writing
+    Open filePath For Output As #fileNum
+    
+    ' Loop through rows (starting on row 3)
+    For i = 3 To lastRow
+        ' Read text result directly from Column S
+        rhinoCommand = Trim(ws.Cells(i, "S").Text)
+        
+        ' Only write to file if cell isn't blank
+        If rhinoCommand <> "" Then
+            Print #fileNum, rhinoCommand
+        End If
+    Next i
+    
+    ' Close file
+    Close #fileNum
+    
+    ' Success message
+    MsgBox "Rhino command file saved successfully!" & vbCrLf & "Location: " & filePath, vbInformation
+End Sub

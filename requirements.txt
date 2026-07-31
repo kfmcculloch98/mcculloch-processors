@@ -32,3 +32,6 @@ cartopy
 dash
 pyemu
 wqchartpy
+xlwings
+pywin32
+watchgod
